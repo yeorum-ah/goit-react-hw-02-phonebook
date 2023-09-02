@@ -5,8 +5,8 @@ export const Filter  = ({onChangeFilter, filter}) =>{
     return <Contacts>
         <SearchField type="text" 
         value={filter} 
-        placeholder="Search..."
-        onChange={event => onChangeFilter(event.target.value)}/>
+        placeholder="Search contacts..."
+        onChange={e => onChangeFilter(e.target.value)}/>
        </Contacts>
 
   
